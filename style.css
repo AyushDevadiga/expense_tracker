@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0f7fa;
+}
+
+.main {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 500px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#amount {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.box div h4 {
+  margin-bottom: 5px;
+}
+
+#income {
+  color: green;
+  font-weight: bold;
+}
+
+#expense {
+  color: red;
+  font-weight: bold;
+}
+
+#history {
+  margin-bottom: 20px;
+  height: 50px;
+  overflow-y: auto;
+  
+}
+
+.history-entry {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-entry.income {
+  border-color: green;
+}
+
+.history-entry.expense {
+  border-color: red;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+

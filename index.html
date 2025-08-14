@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Expense tracker</h1>
+        <h2>My Balance</h2>
+        <div id="amount">₹0000</div>
+        <div class="box">
+            <div >
+                <h4>Income</h4>
+                <p id="income">₹0000</p>
+
+            </div>
+            <div>
+                <h4>Expense</h4>
+                <p id="expense">₹0000</p>
+            </div>
+
+        </div>
+
+        <h2>History</h2>
+        <div id="history">
+            <!-- <div class="history_button">
+                <p>${text}</p>
+                <p>${amount}</p>
+            </div> -->
+
+        </div>
+
+
+        <h2>Add New Transation </h2>
+        <div class="form">
+            <label >Text</label><br><br>
+            <input type="text" id="textInput" placeholder="Enter Text.."><br><br>
+            <label >Amount</label><br>
+            <label >(negative-expense,positive-income)</label><br><br>
+            <input type="text" id="amountInput" placeholder="Enter Amount..">
+        </div>
+        <button onclick="addTransaction()">Add Transaction</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
